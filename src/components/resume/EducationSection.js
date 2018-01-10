@@ -1,16 +1,43 @@
 import PropTypes from 'prop-types';
 import React from 'react';
 
+import ResumeSection from './ResumeSection';
+
 const EducationSection = ({ title, data }) => {
+  const educationData = data.schools.map((school, index) => {
+    const { degree, graduationYear, location, major, name, startYear } = school;
+    const line = `${name}, ${location} — ${degree}, ${major}, ${startYear}-${graduationYear}`;
+
+    return (
+      <li key={`school-${index}`}>{line}</li>
+    );
+  });
+
   return (
-    <section>
+    <ResumeSection>
       <header>
         <h2>{title}</h2>
       </header>
 
-      EDUCATION
-    </section>
+      <ol>
+        {educationData}
+      </ol>
+    </ResumeSection>
   );
 }
+
+EducationSection.propTypes = {
+  data: PropTypes.shape({
+    schools: PropTypes.arrayOf(PropTypes.shape({
+      name: PropTypes.string,
+      location: PropTypes.string,
+      degree: PropTypes.string,
+      major: PropTypes.string,
+      startYear: PropTypes.number,
+      graduationYear: PropTypes.number
+    })).isRequired
+  }),
+  title: PropTypes.string.isRequired
+};
 
 export default EducationSection;

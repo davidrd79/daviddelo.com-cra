@@ -8,6 +8,8 @@ import resumeData from '../data/resume.json';
 import SkillsSection from './resume/SkillsSection';
 import SummarySection from './resume/SummarySection';
 
+import './ResumePage.css';
+
 const getSectionComponent = (section) => {
   let component;
   switch (section) {

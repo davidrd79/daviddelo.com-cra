@@ -1,16 +1,26 @@
 import PropTypes from 'prop-types';
 import React from 'react';
 
-const ContactSection = ({ title, data }) => {
+import ResumeSection from './ResumeSection';
+
+const ContactSection = ({ title, data: { url } }) => {
   return (
-    <section>
+    <ResumeSection>
       <header>
         <h2>{title}</h2>
       </header>
-
-      
-    </section>
+      <p>
+        <a href={url}>{url}</a>
+      </p>
+    </ResumeSection>
   );
 }
+
+ContactSection.propTypes = {
+  data: PropTypes.shape({
+    url: PropTypes.string.isRequired
+  }),
+  title: PropTypes.string.isRequired
+};
 
 export default ContactSection;

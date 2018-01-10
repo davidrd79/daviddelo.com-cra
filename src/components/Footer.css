@@ -1,0 +1,9 @@
+.footer ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.footer li {
+  font-size: 14px;
+}
