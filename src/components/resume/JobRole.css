@@ -1,0 +1,12 @@
+.role {
+  margin-bottom: 20px;
+}
+
+.role h3, .role h4 {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.role header {
+  margin-bottom: 10px;
+}

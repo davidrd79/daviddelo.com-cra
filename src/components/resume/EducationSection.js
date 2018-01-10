@@ -3,7 +3,7 @@ import React from 'react';
 
 import ResumeSection from './ResumeSection';
 
-const EducationSection = ({ title, data }) => {
+const EducationSection = ({ data, title }) => {
   const educationData = data.schools.map((school, index) => {
     const { degree, graduationYear, location, major, name, startYear } = school;
     const line = `${name}, ${location} — ${degree}, ${major}, ${startYear}-${graduationYear}`;
@@ -14,7 +14,7 @@ const EducationSection = ({ title, data }) => {
   });
 
   return (
-    <ResumeSection>
+    <ResumeSection className="education">
       <header>
         <h2>{title}</h2>
       </header>

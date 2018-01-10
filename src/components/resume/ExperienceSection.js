@@ -4,7 +4,7 @@ import React from 'react';
 import JobRole from './JobRole';
 import ResumeSection from './ResumeSection';
 
-const ExperienceSection = ({ title, data }) => {
+const ExperienceSection = ({ data, title }) => {
   const experienceData = data.roles.map((role, index) => {
     return (
       <JobRole key={`experience-role-${index}`} role={role} />
@@ -12,7 +12,7 @@ const ExperienceSection = ({ title, data }) => {
   });
 
   return (
-    <ResumeSection>
+    <ResumeSection className="experience">
       <header>
         <h2>{title}</h2>
       </header>

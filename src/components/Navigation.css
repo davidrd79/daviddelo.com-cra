@@ -16,7 +16,7 @@
 .navigation h1 {
   flex-grow: 1;
   font-family: 'Play', sans-serif;
-  font-size: 36px;
+  font-size: 2.25rem;
 }
 
 .navigation .logo {

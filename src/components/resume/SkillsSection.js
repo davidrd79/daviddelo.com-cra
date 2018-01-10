@@ -3,7 +3,9 @@ import React from 'react';
 
 import ResumeSection from './ResumeSection';
 
-const SkillsSection = ({ title, data }) => {
+import './SkillsSection.css';
+
+const SkillsSection = ({ data, title }) => {
   const skillsData = data.skills.map((skill, index) => {
     return (
       <li key={`skill-${index}`}>{skill}</li>
@@ -11,7 +13,7 @@ const SkillsSection = ({ title, data }) => {
   });
 
   return (
-    <ResumeSection>
+    <ResumeSection className="skills">
       <header>
         <h2>Skills</h2>
       </header>

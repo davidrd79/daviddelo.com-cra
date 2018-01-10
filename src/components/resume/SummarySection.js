@@ -3,7 +3,9 @@ import React from 'react';
 
 import ResumeSection from './ResumeSection';
 
-const SummarySection = ({ title, data }) => {
+import './SummarySection.css';
+
+const SummarySection = ({ data, title }) => {
   const summaryData = data.paragraphs.map((paragraph, index) => {
     return (
       <p key={index}>{paragraph}</p>
@@ -11,7 +13,7 @@ const SummarySection = ({ title, data }) => {
   });
 
   return (
-    <ResumeSection>
+    <ResumeSection className="summary">
       <header>
         <h2>{title}</h2>
       </header>

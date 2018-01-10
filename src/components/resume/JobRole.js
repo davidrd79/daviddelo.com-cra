@@ -1,6 +1,8 @@
 import PropTypes from 'prop-types';
 import React from 'react';
 
+import './JobRole.css';
+
 const JobRole = ({ role }) => {
   const { company, details, endDate, jobTitle, location, startDate } = role;
   const detailsData = details.map((roleDetail, index) => {
@@ -10,9 +12,10 @@ const JobRole = ({ role }) => {
   });
 
   return (
-    <article>
+    <article className="role">
       <header>
-        <h3>{jobTitle}, {company}; {location} — {startDate}-{endDate}</h3>
+        <h3>{jobTitle} - {company}</h3>
+        <h4>{location} — {startDate}-{endDate}</h4>
       </header>
 
       {detailsData}

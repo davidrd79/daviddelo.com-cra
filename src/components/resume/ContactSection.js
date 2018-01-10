@@ -3,9 +3,9 @@ import React from 'react';
 
 import ResumeSection from './ResumeSection';
 
-const ContactSection = ({ title, data: { url } }) => {
+const ContactSection = ({ data: { url }, title }) => {
   return (
-    <ResumeSection>
+    <ResumeSection className="contact">
       <header>
         <h2>{title}</h2>
       </header>
