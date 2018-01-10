@@ -1,3 +1,13 @@
 .navigation {
-  background-color: 
+  background-color: rgb(34, 86, 170); /* #2256aa */
+}
+
+.navigation .logo {
+  border-radius: 50%;
+  height: 75px;
+  width: 75px;
+}
+
+.navigation a {
+  color: #FFF;
 }

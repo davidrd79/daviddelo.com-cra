@@ -1,19 +1,25 @@
 import classNames from 'classnames';
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 import meImage from '../images/me.jpg';
+import './Navigation.css';
 
 const Navigation = () => {
   const navClasses = classNames('navigation');
 
   return (
     <nav className={navClasses}>
-      <img src={meImage} alt="David Delo" />
+      <img className="logo" src={meImage} alt="David Delo" />
+
+      <header>
+        <h1>daviddelo.com</h1>
+      </header>
+
       <ul>
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/about">About</Link></li>
-        <li><Link to="/resume">Resume</Link></li>
+        <li><NavLink activeClassName="selected" to="/">Home</NavLink></li>
+        <li><NavLink activeClassName="selected" to="/about">About</NavLink></li>
+        <li><NavLink activeClassName="selected" to="/resume">Resume</NavLink></li>
       </ul>
     </nav>
   );
