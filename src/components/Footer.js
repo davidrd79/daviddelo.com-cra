@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
   const currentYear = (new Date()).getFullYear();
   return (
-    <footer>
+    <footer className="footer">
       <ul>
         <li>&copy; {currentYear} daviddelo.com</li>
       </ul>

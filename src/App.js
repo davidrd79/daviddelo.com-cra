@@ -15,19 +15,22 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <main>
+        <main className="app">
           <Helmet>
             <title>daviddelo.com</title>
           </Helmet>
+
           <Navigation />
 
-          <Switch>
-            <Route exact path="/" component={HomePage} />
-            <Route path="/about" component={AboutPage} />
-            <Route path="/resume" component={ResumePage} />
-            <Route component={NoMatchingRoute} />
-          </Switch>
-
+          <div className="page">
+            <Switch>
+              <Route exact path="/" component={HomePage} />
+              <Route path="/about" component={AboutPage} />
+              <Route path="/resume" component={ResumePage} />
+              <Route component={NoMatchingRoute} />
+            </Switch>
+          </div>
+          
           <Footer />
         </main>
       </Router>

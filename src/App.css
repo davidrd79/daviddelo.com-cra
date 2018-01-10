@@ -1,0 +1,5 @@
+.app {
+  display: grid;
+  grid-row-gap: 10px;
+  grid-template-rows: 95px auto 25px;
+}
