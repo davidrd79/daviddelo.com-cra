@@ -1,0 +1,49 @@
+{
+  "sections": [
+    {
+      "header": {
+        "title": "David Delo"
+      },
+      "type": "contact",
+      "data": {
+
+      }
+    },
+    {
+      "header": {
+        "title": "Summary"
+      },
+      "type": "summary",
+      "data": {
+
+      }
+    },
+    {
+      "header": {
+        "title": "Experience"
+      },
+      "type": "experience",
+      "data": {
+
+      }
+    },
+    {
+      "header": {
+        "title": "Education"
+      },
+      "type": "education",
+      "data": {
+
+      }
+    },
+    {
+      "header": {
+        "title": "Skills"
+      },
+      "type": "skills",
+      "data": {
+
+      }
+    }
+  ]
+}

@@ -1,14 +1,15 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 
-const HomePage = () =>
-  (
-    <div>
-      <Helmet>
+const HomePage = () => {
+  return (
+    [
+      <Helmet key="home-head">
         <title>daviddelo.com</title>
-      </Helmet>
-      Homepage!
-    </div>
+      </Helmet>,
+      "Homepage!"
+    ]
   );
+};
 
 export default HomePage;
