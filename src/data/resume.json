@@ -1,0 +1,153 @@
+{
+  "sections": [
+    {
+      "header": {
+        "title": "David Delo"
+      },
+      "type": "contact",
+      "data": {
+        "url": "https://www.linkedin.com/in/daviddelo"
+      }
+    },
+    {
+      "header": {
+        "title": "Summary"
+      },
+      "type": "summary",
+      "data": {
+        "paragraphs": [
+          "More than 16 years of experience in the design and development of products and applications using web technologies. Currently serving as Engineering Manager at Google.",
+          "Strong knowledge of the software development life cycle, including requirements analysis, detailed specifications, development, testing, and deployment with Agile and waterfall methodologies. Seasoned people manager, mentor and coach to both individual contributors and managers. Drives engineering excellence and craftsmanship throughout the front-end development process."
+        ]
+      }
+    },
+    {
+      "header": {
+        "title": "Experience"
+      },
+      "type": "experience",
+      "data": {
+        "roles": [
+          {
+            "company": "Google",
+            "details": [
+              ""
+            ],
+            "endDate": "Current",
+            "jobTitle": "Engineering Manager",
+            "location": "San Francisco, CA",
+            "startDate": "1/2018"
+          },
+          {
+            "company": "thredUP",
+            "details": [
+              ""
+            ],
+            "endDate": "11/2017",
+            "jobTitle": "Director of Engineering",
+            "location": "San Francisco, CA",
+            "startDate": "5/2016"
+          },
+          {
+            "company": "LinkedIn",
+            "details": [
+              ""
+            ],
+            "endDate": "2016",
+            "jobTitle": "Director, Web Development/UI Engineering",
+            "location": "San Francisco, CA",
+            "startDate": "2015"
+          },
+          {
+            "company": "LinkedIn",
+            "details": [
+              ""
+            ],
+            "endDate": "2015",
+            "jobTitle": "Senior Web Development Manager",
+            "location": "Mountain View, CA",
+            "startDate": "7/2011"
+          },
+          {
+            "company": "LinkedIn",
+            "details": [
+              "Web development team lead for the Monetization product group, including lead developer for the Jobs product suite. Built the Jobs homepage, apply flow, and Saved Jobs and Recommended Jobs features."
+            ],
+            "endDate": "7/2011",
+            "jobTitle": "Senior Web Developer",
+            "location": "Mountain View, CA",
+            "startDate": "12/2009"
+          },
+          {
+            "company": "Yahoo!",
+            "details": [
+              "Member of the Yahoo! HotJobs and Yahoo! Buzz front-end development teams. Code auditing through existing and legacy code for front-end security issues, including Cross-Site Scripting (XSS) and Cross-Site Request Forgery (XSRF) attacks"
+            ],
+            "endDate": "12/2009",
+            "jobTitle": "Senior Front End Software Engineer",
+            "location": "Sunnyvale, CA",
+            "startDate": "3/2007"
+          },
+          {
+            "company": "Interwoven",
+            "details": [
+              "Member of the TeamSite product client team, responsible for the web-based user interface in Java/JSP, HTML, CSS, and JavaScript."
+            ],
+            "endDate": "3/2007",
+            "jobTitle": "Senior Software Engineer",
+            "location": "Sunnyvale, CA",
+            "startDate": "6/2006"
+          },
+          {
+            "company": "Cisco Systems",
+            "details": [
+              "Principally designed and solely implemented web-based application user interfaces for several products/projects, including the Dynamic Content Adapter 2.0 and several other prototype/demo projects. Implemented in Java, JSP, HTML, CSS, and also heavily drawing upon JavaScript. Built upon Cisco Systems proprietary application server-like back-end web technology and AJAX-like front-end technology."
+            ],
+            "endDate": "6/2006",
+            "jobTitle": "Software Engineer III",
+            "location": "Boston, MA / San Jose, CA",
+            "startDate": "9/2001"
+          }
+        ]
+      }
+    },
+    {
+      "header": {
+        "title": "Education"
+      },
+      "type": "education",
+      "data": {
+        "schools": [
+          {
+            "name": "Boston University",
+            "location": "Boston, MA",
+            "degree":  "Bachelor of Arts",
+            "major": "Computer Science",
+            "startYear": 1997,
+            "graduationYear": 2001
+          }
+        ]
+      }
+    },
+    {
+      "header": {
+        "title": "Skills"
+      },
+      "type": "skills",
+      "data": {
+        "skills": [
+          "Agile Software Development",
+          "HTML,HTML5",
+          "CSS, including CSS3, Sass, Compass, Responsive CSS",
+          "JavaScript and various frameworks - React, Redux, Backbone, Marionette, Ember, jQuery, Underscore/Lodash, YUI",
+          "JavaScript Unit Tests - Mocha, Chai, Enzyme, testdouble",
+          "Package management and build tools - npm, Broccoli",
+          "Server side frameworks - Node.js, Ruby on Rails, Java/JSP, PHP, Play",
+          "Continous integration tools - CircleCI",
+          "Accessibility, Site Speed/Performance",
+          "Source Control - Git, Github, Subversion"
+        ]
+      }
+    }
+  ]
+}
